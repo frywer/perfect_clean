@@ -2,7 +2,8 @@
 lock '3.7.0'
 
 set :application, 'perfect_clean'
-set :repo_url, 'git@github.com:frywer/perfect_clean.git'
+#set :repo_url, 'git@github.com:frywer/perfect_clean.git'
+set :repo_url, ' http://github.com/frywer/perfect_clean.git'
 
 set :deploy_to, '/home/worker/perfect_clean'
 
