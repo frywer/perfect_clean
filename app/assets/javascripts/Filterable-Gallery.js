@@ -8,15 +8,15 @@ var slug = function(str) {
 }
 
 $("ul.filters li a").on('click',function(){
-    $("ul.filters").find('.active').removeClass('active')
-    $(this).parent().addClass('active')
-    let filterValue = slug(this.text)
+    $("ul.filters").find('.active').removeClass('active');
+    $(this).parent().addClass('active');
+    filterValue = slug(this.text);
     if(filterValue == 'all') {
         $("div.gallery-pt--body>.item").show()
     }
     else {
-        let parent = $('div.gallery-pt--body')
-        parent.parent().height(parent.parent().height())
+        parent = $('div.gallery-pt--body');
+        parent.parent().height(parent.parent().height());
         parent.slideUp(500,function(){
             $(this).find('img[data-album!="'+filterValue+'"]').closest('div.item')
             .hide()
