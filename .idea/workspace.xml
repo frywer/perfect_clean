@@ -2,50 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a786948a-c5d0-44b8-8bbc-a3e04647bace" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/arab2.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/before-after-1.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/before-after-2.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/before-after-3.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/before-after-4.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/before-after-5.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/before-after-6.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/before-after-7.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/calendar.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/divan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/dry-cleaning.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/girl-call.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/girl-cleaning.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/guy-cleaning.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/kover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/logo-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/nadeznost2.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/profi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/rebenok-divan-2.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/window.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/workers.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/Filterable-Gallery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/Carousel-Hero.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/Features-Blue.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/Features-Boxed.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/Features-Clean.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/Filterable-Gallery.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/Footer-Basic.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/Lightbox-Gallery.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/Navigation-Clean1.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/Newsletter-Subscription-Form.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/servis-1.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/servis-2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/servis-3.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/styles.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
     </list>
     <ignored path="perfect_clean.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -85,22 +42,21 @@
       <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4741784">
-              <caret line="190" column="49" selection-start-line="190" selection-start-column="49" selection-end-line="190" selection-end-column="49" />
+            <state vertical-scroll-proportion="-8.43662">
+              <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
               <folding>
                 <element signature="e#8#51#0#HTML" expanded="true" />
                 <element signature="e#192#277#0#HTML" expanded="true" />
-                <element signature="e#332#442#0#HTML" expanded="true" />
-                <element signature="e#839#863#0#HTML" expanded="true" />
-                <element signature="e#3583#3623#0#HTML" expanded="true" />
-                <element signature="e#3773#3796#0#HTML" expanded="true" />
-                <element signature="e#4540#4563#0#HTML" expanded="true" />
-                <element signature="e#4840#4863#0#HTML" expanded="true" />
-                <element signature="e#5284#5307#0#HTML" expanded="true" />
-                <element signature="e#5575#5598#0#HTML" expanded="true" />
-                <element signature="e#5799#5822#0#HTML" expanded="true" />
-                <element signature="e#6211#6251#0#HTML" expanded="true" />
-                <element signature="e#7935#7975#0#HTML" expanded="true" />
+                <element signature="e#728#752#0#HTML" expanded="true" />
+                <element signature="e#3472#3512#0#HTML" expanded="true" />
+                <element signature="e#3662#3685#0#HTML" expanded="true" />
+                <element signature="e#4429#4452#0#HTML" expanded="true" />
+                <element signature="e#4729#4752#0#HTML" expanded="true" />
+                <element signature="e#5173#5196#0#HTML" expanded="true" />
+                <element signature="e#5464#5487#0#HTML" expanded="true" />
+                <element signature="e#5688#5711#0#HTML" expanded="true" />
+                <element signature="e#6100#6140#0#HTML" expanded="true" />
+                <element signature="e#7824#7864#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -304,26 +260,8 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="perfect_clean" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="perfect_clean" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -341,7 +279,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="perfect_clean" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="perfect_clean" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -564,7 +520,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -574,7 +530,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -923,22 +879,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4741784">
-          <caret line="190" column="49" selection-start-line="190" selection-start-column="49" selection-end-line="190" selection-end-column="49" />
+        <state vertical-scroll-proportion="-8.43662">
+          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
           <folding>
             <element signature="e#8#51#0#HTML" expanded="true" />
             <element signature="e#192#277#0#HTML" expanded="true" />
-            <element signature="e#332#442#0#HTML" expanded="true" />
-            <element signature="e#839#863#0#HTML" expanded="true" />
-            <element signature="e#3583#3623#0#HTML" expanded="true" />
-            <element signature="e#3773#3796#0#HTML" expanded="true" />
-            <element signature="e#4540#4563#0#HTML" expanded="true" />
-            <element signature="e#4840#4863#0#HTML" expanded="true" />
-            <element signature="e#5284#5307#0#HTML" expanded="true" />
-            <element signature="e#5575#5598#0#HTML" expanded="true" />
-            <element signature="e#5799#5822#0#HTML" expanded="true" />
-            <element signature="e#6211#6251#0#HTML" expanded="true" />
-            <element signature="e#7935#7975#0#HTML" expanded="true" />
+            <element signature="e#728#752#0#HTML" expanded="true" />
+            <element signature="e#3472#3512#0#HTML" expanded="true" />
+            <element signature="e#3662#3685#0#HTML" expanded="true" />
+            <element signature="e#4429#4452#0#HTML" expanded="true" />
+            <element signature="e#4729#4752#0#HTML" expanded="true" />
+            <element signature="e#5173#5196#0#HTML" expanded="true" />
+            <element signature="e#5464#5487#0#HTML" expanded="true" />
+            <element signature="e#5688#5711#0#HTML" expanded="true" />
+            <element signature="e#6100#6140#0#HTML" expanded="true" />
+            <element signature="e#7824#7864#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
