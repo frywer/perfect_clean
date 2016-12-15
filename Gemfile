@@ -39,6 +39,9 @@ group :development, :test do
   gem 'byebug'
 end
 
+gem 'bootstrap-sass', '~> 3.3.6'
+#gem 'sass-rails', '~> 3.2'
+
 group :development do
   gem 'capistrano', '~> 3.7'
   gem 'capistrano-bundler', '~> 1.2'

@@ -1,0 +1,115 @@
+div.jumbotron.carousel-hero {
+  color:#fff;
+  text-align:center;
+  background-size:cover;
+  background-position:center;
+  padding-top:100px;
+  padding-bottom:100px;
+  margin-bottom:0;
+}
+
+div.jumbotron.hero-nature {
+  background-image:url('girl-cleaning.png');
+}
+
+div.jumbotron.hero-photography {
+  background-image:url('dry-cleaning.jpeg');
+}
+
+div.jumbotron.hero-technology {
+  background-image:url('arab2.jpeg');
+}
+
+div.jumbotron.hero-food {
+  background-image:url('guy-cleaning.jpeg');
+}
+
+h1.hero-title, h2.hero-title, h3.hero-title {
+  text-shadow:0 3px 3px rgba(0,0,0,0.4);
+  color:#fff;
+}
+
+p.hero-subtitle {
+  max-width:600px;
+  margin:25px auto;
+  padding:10px 15px;
+  color:#fff;
+  background-color:rgba(131,53,94,0.62);
+  font-size:30px;
+}
+
+img.about-img {
+  max-width:300px;
+  min-width:300px;
+}
+
+div#contact-div-form {
+  background-image:url("girl-call.png");
+  background-size:100%;
+  background-position-y:-170px;
+  background-repeat:no-repeat;
+  display:table;
+  width:100%;
+  padding-top:10px;
+}
+
+h2.title-contacts {
+  text-align:center;
+}
+
+i.glyphicon.glyphicon-map-marker.icon {
+  font-size:50px;
+  color:#ffcc1e;
+  float:left;
+  /*margin-left:-65px;*/
+}
+
+h3.name {
+  /*float:left;*/
+}
+
+i.icon.ion-iphone.icon {
+  font-size:50px;
+  color:#ffcc1e;
+  float:left;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+i.fa.fa-facebook-square {
+  font-size:60px;
+  color:rgba(103,97,96,0.76);
+  float:left;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+i.fa.fa-envelope {
+  font-size:60px;
+  color:rgba(103,97,96,0.76);
+  float:left;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+h3.phone-footer {
+  font-weight:500;
+}
+
+img.logo-footer {
+  /*margin-bottom:-300px;*/
+  /*position:relative;*/
+  margin-top:170px;
+  max-width:50%;
+  /*position:absolute;*/
+  bottom:0;
+}
+
+div.container.col-md-6 {
+  margin-bottom:20px;
+}
+
+nav.navbar.navbar-default.navigation-clean.navbar-fixed-top {
+  opacity:0.9;
+}
+
