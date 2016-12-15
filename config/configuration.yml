@@ -1,0 +1,13 @@
+
+development:
+
+    email_delivery:
+      delivery_method: :smtp
+      smtp_settings:
+        enable_starttls_auto: true
+        address: "smtp.gmail.com"
+        port: 587
+        domain: "gmail.com" # 'your.domain.com' for GoogleApps
+        authentication: :plain
+        user_name: "imarangoz.website@gmail.com"
+        password: "Wall-Pedantic-7333"
