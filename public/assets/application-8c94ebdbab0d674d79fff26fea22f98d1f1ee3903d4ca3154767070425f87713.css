@@ -8817,20 +8817,24 @@ div.jumbotron.carousel-hero {
   margin-bottom: 0;
 }
 
-/* line 15, /Users/frywer/Desktop/perfect_clean/perfect_clean/app/assets/stylesheets/Carousel-Hero.css */
+/* line 11, /Users/frywer/Desktop/perfect_clean/perfect_clean/app/assets/stylesheets/Carousel-Hero.css */
 div.jumbotron.hero-photography {
   background-image: url("dry-cleaning.jpeg");
 }
 
-
-/* line 19, /Users/frywer/Desktop/perfect_clean/perfect_clean/app/assets/stylesheets/Carousel-Hero.css */
+/* line 15, /Users/frywer/Desktop/perfect_clean/perfect_clean/app/assets/stylesheets/Carousel-Hero.css */
 div.jumbotron.hero-technology {
   background-image: url("arab2.jpeg");
 }
 
-/* line 23, /Users/frywer/Desktop/perfect_clean/perfect_clean/app/assets/stylesheets/Carousel-Hero.css */
+/* line 19, /Users/frywer/Desktop/perfect_clean/perfect_clean/app/assets/stylesheets/Carousel-Hero.css */
 div.jumbotron.hero-food {
   background-image: url("guy-cleaning.jpeg");
+}
+
+/* line 23, /Users/frywer/Desktop/perfect_clean/perfect_clean/app/assets/stylesheets/Carousel-Hero.css */
+div.jumbotron.hero-nature {
+  background-image: url("girlgirl.png");
 }
 
 /* line 27, /Users/frywer/Desktop/perfect_clean/perfect_clean/app/assets/stylesheets/Carousel-Hero.css */

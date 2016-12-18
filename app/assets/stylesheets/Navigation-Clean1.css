@@ -22,7 +22,7 @@
   .navigation-clean .navbar-header {
     padding-top:10px;
     padding-bottom:10px;
-    background:url(logo.png);
+    background:url(logo-2.png);
 
   }
 }
@@ -42,12 +42,11 @@
 }
 
 .navigation-clean .navbar-brand img {
-  height:150%;
+  height:300%;
   display:inline-block;
   /*margin-right:10px;*/
   width:auto;
-  margin-left:70px;
-  margin-top:5px;
+    margin-top: -15px;
 }
 
 .navigation-clean .navbar-toggle {
