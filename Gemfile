@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
-
+ruby "2.3.0"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.7.1'
 # Use sqlite3 as the database for Active Record
-gem 'mysql2'
+#gem 'mysql2'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -42,7 +42,13 @@ end
 gem 'bootstrap-sass', '~> 3.3.6'
 #gem 'sass-rails', '~> 3.2'
 
+group :production do
+  gem 'pg'
+end
+
 group :development do
+  gem 'rails_12factor'
+  gem 'mysql2'
   gem 'capistrano', '~> 3.7'
   gem 'capistrano-bundler', '~> 1.2'
   gem 'capistrano-rails', '~> 1.2'
