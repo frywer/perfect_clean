@@ -29,10 +29,10 @@ class UsersController < ApplicationController
     respond_to do |format|
       if @user.save
         UserMailer.welcome_email(@user).deliver
-        format.html { render 'home/index', notice: 'Notice was successfully created.' }
+        format.html { redirect_to controller: 'home', action: 'index', notice: 'Notice was successfully created.' }
         #format.json { render :show, status: :created, location: @user }
       else
-        format.html { render 'home/index' }
+        format.html { redirect_to controller: 'home', action: 'index', anchor: 'contacts', notice: 'Email is invalid!' }
         #format.json { render json: @user.errors, status: :unprocessable_entity }
       end
     end

@@ -1,37 +1,88 @@
-<%= form_for(@user) do |f| %>
-  <% if @user.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
 
-      <ul>
-      <% @user.errors.full_messages.each do |message| %>
-        <li><%= message %></li>
-      <% end %>
-      </ul>
-    </div>
-  <% end %>
+<div class="col-md-12" id="contact-div-form">
+  <a id="contacts"></a>
+  <h2 class="title-contacts">Pentru orice informație suplimentară vă rugăm să ne contactați:</h2>
+  <div class="container col-md-6 item">
+    <i class="icon ion-iphone icon"></i>
+    <h3 class="phone-footer">+(373) 79 77 99 09</h3>
+    <br>
+    <i class="icon ion-iphone icon"></i>
+    <h3 class="phone-footer">+(373) 79 77 99 05</h3>
+    <%= image_tag 'logo-2.png', class: "logo-footer" %>
 
-  <div class="field">
-    <%= f.label :firstname %><br>
-    <%= f.text_field :firstname %>
   </div>
-  <div class="field">
-    <%= f.label :lastname %><br>
-    <%= f.text_field :lastname %>
+  <div class="container col-md-6">
+    <%= form_for(@user) do |f| %>
+      <div class="messages">
+        <% if @user.errors.any? %>
+            <div id="error_explanation">
+              <ul>
+                <% @user.errors.full_messages.each do |message| %>
+                    <li><%= message %></li>
+                <% end %>
+              </ul>
+            </div>
+        <% end %>
+      </div>
+      <div class="controls">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="form_name">Numele *</label>
+              <%= f.text_field :firstname, placeholder: "Introduceți numele dmnvs *", required: true, class: "form-control" %>
+              <!--input id="form_name" type="text" name="name" class="form-control" placeholder="Introduceți numele dmnvs *" required="required" data-error="Firstname is required."-->
+              <div class="help-block with-errors"></div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="form_lastname">Prenumele *</label>
+              <%= f.text_field :lastname, placeholder: "Introduceți prenumele dmnvs *", required: true, class: "form-control" %>
+              <!--<input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Introduceți prenumele dmnvs *" required="required" data-error="Lastname is required.">-->
+              <div class="help-block with-errors"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="form_email">Adresa de email *</label>
+              <%= f.text_field :email, placeholder: "Introduceți adresa de email *", required: true, class: "form-control" %>
+              <!--<input id="form_email" type="email" name="email" class="form-control" placeholder="Introduceți adresa de email *" required="required" data-error="Valid email is required.">-->
+              <div class="help-block with-errors"></div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="form_phone">Telefon</label>
+              <%= f.text_field :phone, placeholder: "Introduceți nr. de telefonul", class: "form-control" %>
+              <!--<input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Introduceți nr. de telefonul">-->
+              <div class="help-block with-errors"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="form-group">
+              <label for="form_message">Text *</label>
+              <%= f.text_area :message, placeholder: "Mesajul dmnvs *", required: true, class: "form-control" %>
+              <!--<textarea id="form_message" name="message" class="form-control" placeholder="Mesajul dmnvs *" rows="4" required="required" data-error="Please,leave us a message."></textarea>-->
+              <div class="help-block with-errors"></div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <input type="submit" class="btn btn-success btn-send" value="Trimite">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <p class="text-muted"><strong>*</strong> Cîmp obligatoriu.</p>
+          </div>
+        </div>
+      </div>
+
+    <% end %>
   </div>
-  <div class="field">
-    <%= f.label :email %><br>
-    <%= f.text_field :email %>
-  </div>
-  <div class="field">
-    <%= f.label :phone %><br>
-    <%= f.text_field :phone %>
-  </div>
-  <div class="field">
-    <%= f.label :message %><br>
-    <%= f.text_area :message %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
-<% end %>
+
+
+</div>
