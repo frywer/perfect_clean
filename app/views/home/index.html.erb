@@ -56,6 +56,43 @@
     <li data-target="#carousel-1" data-slide-to="3"></li>
   </ol>
 </div>
+<div class="features-boxed">
+  <a id="about-us"></a>
+  <div class="container">
+    <div class="intro">
+      <h1 style="text-align:center;font-size:4em;">Despre noi </h1>
+      <p class="text-center">PerfectClean a apărut recent pe piața din Republica Moldova pentru a vă oferi servicii profesionale de curățenie. Pentru că știm cât de important este pentru dumneavoastră aspectul îngrijit al spațiului în care vă aflați, venim să vă oferim servicii calitative și să vă readucem confortul acolo unde vă simțiți ”ca acasă”. Firma noastră are drept obiectiv ”satisfacerea clienților noștri”, astfel, serviciile prestate de noi sunt:</p>
+    </div>
+    <div class="row features">
+      <div class="col-md-6 col-sm-6 item">
+        <div class="box">
+          <h1>Timp rezonabil</h1>
+          <%= image_tag 'calendar.jpeg', class: 'about-img'%>
+
+          <p class="description">Îndeplinite într-un timp rezonabil- pentru a reduce la minim deranjul creat, echipa noastră lucrează eficient și rapid. În dependență de complexitatea lucrărilor, suntenți preântâmpinați în prealabil despre dura efectuării acestora.</p></div>
+      </div>
+      <div class="col-md-6 col-sm-6 item">
+        <div class="box">
+          <h1>Inofensive</h1>
+          <%= image_tag 'rebenok-divan-2.jpeg', class: 'about-img'%>
+          <p class="description">Suprafeţele prelucrate ramân inofensive pentru oameni şi animalele domestic după curățare.</p></div>
+      </div>
+      <div class="col-md-6 col-sm-6 item">
+        <div class="box">
+          <h1>Sigure</h1>
+          <%= image_tag 'nadeznost2.jpeg', class: 'about-img'%>
+          <p class="description">Personalul angajat în firma noastră este responsabil și onest.</p></div>
+      </div>
+      <div class="col-md-6 col-sm-6 item">
+        <div class="box">
+          <h1>Profesionale</h1>
+          <%= image_tag 'workers.jpeg', class: 'about-img'%>
+          <p class="description">Echipamentele de lucru de origine italiană sunt de ultimă generație.</p></div>
+      </div>
+
+    </div>
+  </div>
+</div>
 <div class="register-photo">
   <a id="service"></a>
   <h1 style="text-align:center;font-size:4em;">Servicii </h1>
@@ -133,49 +170,13 @@
     </div>
   </div>
 </div>
-<div class="features-boxed">
-  <a id="about-us"></a>
-  <div class="container">
-    <div class="intro">
-      <h1 style="text-align:center;font-size:4em;">Despre noi </h1>
-      <p class="text-center">PerfectClean a apărut recent pe piața din Republica Moldova pentru a vă oferi servicii profesionale de curățenie. Pentru că știm cât de important este pentru dumneavoastră aspectul îngrijit al spațiului în care vă aflați, venim să vă oferim servicii calitative și să vă readucem confortul acolo unde vă simțiți ”ca acasă”. Firma noastră are drept obiectiv ”satisfacerea clienților noștri”, astfel, serviciile prestate de noi sunt:</p>
-    </div>
-    <div class="row features">
-      <div class="col-md-6 col-sm-6 item">
-        <div class="box">
-          <h1>Timp rezonabil</h1>
-          <%= image_tag 'calendar.jpeg', class: 'about-img'%>
-
-          <p class="description">Îndeplinite într-un timp rezonabil- pentru a reduce la minim deranjul creat, echipa noastră lucrează eficient și rapid. În dependență de complexitatea lucrărilor, suntenți preântâmpinați în prealabil despre dura efectuării acestora.</p></div>
-      </div>
-      <div class="col-md-6 col-sm-6 item">
-        <div class="box">
-          <h1>Inofensive</h1>
-          <%= image_tag 'rebenok-divan-2.jpeg', class: 'about-img'%>
-          <p class="description">Suprafeţele prelucrate ramân inofensive pentru oameni şi animalele domestic după curățare.</p></div>
-      </div>
-      <div class="col-md-6 col-sm-6 item">
-        <div class="box">
-          <h1>Sigure</h1>
-          <%= image_tag 'nadeznost2.jpeg', class: 'about-img'%>
-          <p class="description">Personalul angajat în firma noastră este responsabil și onest.</p></div>
-      </div>
-      <div class="col-md-6 col-sm-6 item">
-        <div class="box">
-          <h1>Profesionale</h1>
-          <%= image_tag 'workers.jpeg', class: 'about-img'%>
-          <p class="description">Echipamentele de lucru de origine italiană sunt de ultimă generație.</p></div>
-      </div>
-
-    </div>
-  </div>
-</div>
 
 <%= render 'form' %>
 
 <div class="footer-basic">
   <footer>
-    <div class="social"><a href="https://www.facebook.com/PerfectCleanMoldova"><i class="icon ion-social-facebook"></i></a></div>
+    <!--<div class="social"><a href="https://www.facebook.com/PerfectCleanMoldova"><i class="icon ion-social-facebook"></i></a></div>-->
+    <div class="social"><a href="https://www.facebook.com/PerfectCleanMoldova"><%= image_tag 'facebook.png', style: 'width: 43px; margin-top: -5px; margin-left: -2px;'%></a></div>
     <ul class="list-inline">
       <li><a href="#">Home </a></li>
       <li><a href="#about-us">Despre noi</a></li>
