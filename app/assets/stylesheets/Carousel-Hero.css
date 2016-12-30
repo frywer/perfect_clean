@@ -124,3 +124,7 @@ nav.navbar.navbar-default.navigation-clean.navbar-fixed-top {
   opacity:0.9;
 }
 
+.menu-link:hover{
+    border-bottom: solid ;
+    padding-top: 13px;
+}
