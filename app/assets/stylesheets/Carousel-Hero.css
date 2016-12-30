@@ -10,19 +10,20 @@ div.jumbotron.carousel-hero {
 
 div.jumbotron.hero-nature {
   background-image:url('girl-cleaning.png');
+    min-height: 600px;
 }
 
 div.jumbotron.hero-photography {
-  background-image:url('dry-cleaning.jpeg');
+  /*background-image:url('litlegirl.jpeg');  */
+  background-image:url('lgirl2.jpeg');
+    min-height: 600px;
 }
 
 div.jumbotron.hero-technology {
   background-image:url('arab2.jpeg');
+    min-height: 600px;
 }
 
-div.jumbotron.hero-food {
-  background-image:url('guy-cleaning.jpeg');
-}
 
 h1.hero-title, h2.hero-title, h3.hero-title {
   text-shadow:0 3px 3px rgba(0,0,0,0.4);
@@ -34,8 +35,18 @@ p.hero-subtitle {
   margin:25px auto;
   padding:10px 15px;
   color:#fff;
-  background-color:rgba(131,53,94,0.62);
+  background-color: rgba(131, 53, 94, 0.38);
   font-size:30px;
+}
+
+ul.hero-subtitle {
+    max-width:600px;
+    margin:25px auto;
+    padding:10px 40px;
+    color:#fff;
+    background-color: rgba(131, 53, 94, 0.38);
+    font-size:30px;
+    text-align: left;
 }
 
 img.about-img {
