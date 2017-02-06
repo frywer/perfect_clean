@@ -48,7 +48,7 @@ end
 
 group :development do
   gem 'rails_12factor'
-  gem 'mysql2'
+  gem 'sqlite3'
   gem 'capistrano', '~> 3.7'
   gem 'capistrano-bundler', '~> 1.2'
   gem 'capistrano-rails', '~> 1.2'

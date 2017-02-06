@@ -14,13 +14,13 @@
 ActiveRecord::Schema.define(version: 20161215201326) do
 
   create_table "users", force: :cascade do |t|
-    t.string   "firstname",  limit: 255
-    t.string   "lastname",   limit: 255
-    t.string   "email",      limit: 255
-    t.string   "phone",      limit: 255
-    t.text     "message",    limit: 65535
-    t.datetime "created_at",               null: false
-    t.datetime "updated_at",               null: false
+    t.string   "firstname"
+    t.string   "lastname"
+    t.string   "email"
+    t.string   "phone"
+    t.text     "message"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end
