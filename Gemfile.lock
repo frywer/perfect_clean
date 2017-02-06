@@ -109,7 +109,6 @@ GEM
     net-ssh (3.2.0)
     nokogiri (1.6.8.1)
       mini_portile2 (~> 2.1.0)
-    pg (0.19.0)
     pry (0.10.4)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -201,7 +200,6 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   mysql2
-  pg
   pry
   rails (= 4.2.7.1)
   rails_12factor
@@ -216,4 +214,4 @@ RUBY VERSION
    ruby 2.3.0p0
 
 BUNDLED WITH
-   1.13.6
+   1.14.3
