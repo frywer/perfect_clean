@@ -47,18 +47,18 @@ group :production do
 end
 
 group :development do
-  gem 'rails_12factor'
-  gem 'mysql2'
-  gem 'capistrano', '~> 3.7'
-  gem 'capistrano-bundler', '~> 1.2'
-  gem 'capistrano-rails', '~> 1.2'
-
-# Add this if you're using rbenv
-  gem 'capistrano-rbenv', github: "capistrano/rbenv"
-  # Access an IRB console on exception pages or by using <%= console %> in views
-  gem 'web-console', '~> 2.0'
-
-  # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'spring'
+#   gem 'rails_12factor'
+#   gem 'mysql2'
+#   gem 'capistrano', '~> 3.7'
+#   gem 'capistrano-bundler', '~> 1.2'
+#   gem 'capistrano-rails', '~> 1.2'
+#
+# # Add this if you're using rbenv
+#   gem 'capistrano-rbenv', github: "capistrano/rbenv"
+#   # Access an IRB console on exception pages or by using <%= console %> in views
+#   gem 'web-console', '~> 2.0'
+#
+#   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
+#   gem 'spring'
 end
 
